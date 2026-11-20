@@ -1,0 +1,28 @@
+﻿# Roadmap
+
+- [x] V0.1 project skeleton
+- [x] OBS Replay Buffer start/stop/save integration
+- [x] Configurable target buffer duration
+- [x] Player nick default: Absolution
+- [x] Default mode: Warfare
+- [x] Clip library JSON model
+- [x] Automatic clip organization after replay save
+- [x] V0.2 OBS UI Enhancements: Status metrics, History tab, Advanced settings
+- [x] V0.2 Installer infrastructure (CPack ZIP)
+- [x] V0.2 dockable OBS UI, language selector, and live clip history refresh
+- [x] V0.2 managed detector process and OBS log forwarding
+- [x] V0.2 WinOCR multikill banner detection and pre/post event timing
+- [x] V0.2 verify runtime behavior in OBS 32.2.2
+- [x] V0.2 ROI selector for the Delta Force killfeed
+- [x] V0.3 external capture/detector bridge
+- [x] V0.3 Windows OCR detector and multikill parser
+- [x] V0.4 only configured phrases trigger clips; killfeed rows do not implicitly emit single kills
+- [x] V0.4 event grouping: double/triple/multikill
+- [x] V0.5 preserve quadra/penta event tiers and log detection metadata in OBS
+- [x] V0.5 event-relative Replay Buffer trimming with FFmpeg stream copy (keyframe-aligned; full replay fallback)
+- [ ] V0.5 selectable OBS-source capture for OCR (deferred; desktop-region capture remains available)
+- [x] V0.6 VOD analyzer (writes media-time JSONL event timelines)
+- [x] V0.6 VOD FFmpeg clip extraction
+- [ ] V0.7 local dashboard
+- [ ] V0.8 installer / repair / uninstall
+- [ ] V0.9 signed releases and migration support

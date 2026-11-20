@@ -1,0 +1,17 @@
+build*/
+.deps/
+releases/
+out/
+dist/
+rundir/
+*.zip
+.vs/
+*.user
+*.suo
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.log
+.env
